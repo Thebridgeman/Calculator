@@ -25,3 +25,9 @@ buttons.forEach(function(button) {
       display.value += clickedButtonValue;
     }
   }
+
+  function updateCDiskInput(val) {
+    return document.getElementById('CDiskInput').value=val*150;
+}
+
+var result = updateCDiskInput(1);
